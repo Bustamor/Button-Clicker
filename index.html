@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Navbar">
+            <h1>Dojonary</h1>
+            <input type="text" class="searchbar" placeholder="search">
+            <button onclick="ChangeLoginToLogout(this)" class="login">Login</button>
+        </div>
+        <div class="Main_body">
+            <!-- Left Column -->
+            <div class="left_column">
+                <!-- Top Card -->
+                <div class="topcard">
+                    <!-- Top Card left half -->
+                    <div class="left_side">
+                        <h1>ninja</h1>
+                        <p><em>noun</em> </p><br>
+                        <p>Plural: <em>ninjas </em> </p> <br>
+                        <button class="13 likes"> 13 Likes</button>
+                    </div>
+                    <!-- Top Card right half -->
+                    <div class="right_side">
+                        <h3>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span>
+                        </h3>
+                    </div>
+                </div>
+                <!-- Bot Card -->
+                <div class="botcard">
+                    <div class="botcard_ls">
+                        <h1>Ninja</h1>
+                        <p><em>noun</em> </p> <br>
+                        <p>Plural: <em>ninjas</em></p>  <br>
+                        <button class="37 likes"> 37 likes</button>
+                    </div>
+                    <div class="botcard_rs">
+                        <h3>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</h3>
+                    </div>
+                </div>
+                <!-- Bot Card left half -->
+            </div>
+            <div class="right_column">
+                <div class="Dojonary">
+                    <h3>Dojonary is <br>
+                        defined by <strong>YOU</strong></h3>  <br>
+                <button onclick="removedef(this)" class="add definition">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

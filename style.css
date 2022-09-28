@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: block;
+    width: 970px;
+    background-color: rgb(255, 255, 255);
+}
+.Navbar{
+    background-color: rgb(120, 120, 120);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.Navbar > .searchbar{
+width: 320px;
+}
+
+.login{
+    background-color: aqua;
+    padding: 0px 40px;
+    box-shadow: 5px 5px;
+    border-radius: 10%;
+}
+.Main_body{
+display: flex;
+gap: 20px;
+padding: 0px 125px;
+}
+
+.left_column{
+flex: 2;
+padding: 20px;}
+/* topcard */
+.topcard{
+border: 3px gray solid;
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+text-align: center;
+}
+.left_side{
+    align-items: center;
+    padding: 10px;
+    margin: 15px 0px; 
+    width: 150px;
+}
+.left_side > button{
+    padding: 5px;
+
+}
+.likes{
+    padding: 5px;
+    background-color: yellow;
+    box-shadow: 5px 5px;
+}
+.right_side{
+
+}
+
+/* botcard */
+.botcard{
+    display: flex;
+    border: solid gray 3px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.botcard_ls{
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    width: 165px;
+}
+.botcard_rs{
+
+}
+
+/* right column */
+.right_column{
+    flex: 1;
+    padding: 20px;
+
+}
+.Dojonary{
+    height: 100px;
+vertical-align: middle;
+border: solid gray 3px;
+text-align: left;
+padding: 20px;
+}
+
+.Dojonary  > button{
+padding: 5px 25px;
+box-shadow: 5px 5px;
+}
+
+.add{
+    background-color: rgb(32, 170, 32);
+}
+
+span {
+    text-decoration: underline;
+    color: blue;
+}
